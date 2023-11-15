@@ -38,15 +38,15 @@ const rutEncontrar = async (id) => {
 
 
 const rutExiste = async (rut) => {
-  const collectionPath = 'users'; // Definir la ruta de la colección
+  const collectionPath = 'users'; 
   const q = query(collection(db, collectionPath), where("rut", "==", rut));
   const querySnapshot = await getDocs(q);
 
   if (!querySnapshot.empty) {
-    const doc = querySnapshot.docs[0]; // Obtener el primer documento si existe
+    const doc = querySnapshot.docs[0]; 
     return doc.data().nombre;
   } else {
-    return null; // El documento no existe
+    return null; 
   }
 }
 const geocoder = new Nominatim({

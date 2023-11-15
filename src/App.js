@@ -20,14 +20,11 @@ function App() {
     <div>
        
          <Routes>
-        <Route path='/register' element={<Registrarse />} />
-        <Route path='/login' element={<Iniciarsesion />} />
         <Route path='/foto' element={<CameraCapture />} />
         <Route path="/carnet" element={<AgregarCarnet />} />
         <Route path="*" element={<Menu/>} />
         <Route path="/loc" element={<VerDoc/>} />
         <Route path="/search" element={<Busqueda/>} />
-        <Route path="/" element={<CoverPage/>} />
         
       </Routes>
      
