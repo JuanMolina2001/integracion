@@ -1,0 +1,38 @@
+
+
+.nombre {
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+
+
+.main{
+margin-top: 5vh;
+}
+
+.primaryContainer{
+    position: relative;
+    min-height: 100vh; 
+}
+
+
+  .finalButton:active {
+    transform: translateY(0);
+    box-shadow: none;
+  }
+
+
+.svgH{
+fill: #0e6cff;
+}
+
+header{
+  background-color: white;
+  margin-bottom: 1rem;
+}
+.card{
+  margin: 1rem
+}

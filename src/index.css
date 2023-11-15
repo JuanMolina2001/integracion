@@ -1,0 +1,10 @@
+body {
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+    background-color: lightgray;
+  }
+.row{
+    max-width: 100%;
+  }
+  header{
+    z-index: 1;
+  }

@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+  
+input[type="file"] {
+  color: transparent;
+  margin-bottom: 4vh;
+ 
+}
+.mensajes{
+  text-align: left;
+}
+
+.imagen-redonda-perfil {
+  width: 7vh; 
+  height: 7vh; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
